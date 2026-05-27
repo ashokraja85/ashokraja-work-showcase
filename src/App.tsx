@@ -273,7 +273,7 @@ export default function App() {
           />
         </div>
         
-        <div className="relative z-20 text-center w-full max-w-7xl mx-auto px-4 overflow-visible">
+        <div className="relative z-20 text-center w-full max-w-7xl mx-auto px-4 flex flex-col items-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-[10px] font-bold uppercase tracking-widest mb-8 animate-fade-in">
             <Zap size={12} /> Technical Architect & Product Leader
           </div>
@@ -305,27 +305,27 @@ export default function App() {
             From scaling AI DataOps teams to shipping 40+ production apps.
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 px-4 mb-16">
             <a href="#work" className="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-sm transition-all shadow-xl shadow-indigo-600/20 text-center">View Projects</a>
             <a href="https://github.com/ashokraja85" target="_blank" className="px-8 py-4 glass text-white rounded-2xl font-bold text-sm hover:bg-white/5 transition-all text-center">GitHub Profile</a>
           </div>
-        </div>
 
-        <div className="absolute bottom-10 flex flex-wrap justify-center gap-6 md:gap-12 px-6">
-           <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-white leading-tight">19+</div>
-              <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Years</div>
-           </div>
-           <div className="h-8 w-px bg-white/10 hidden sm:block"></div>
-           <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-white leading-tight">40+</div>
-              <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Products</div>
-           </div>
-           <div className="h-8 w-px bg-white/10 hidden sm:block"></div>
-           <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-white leading-tight">150+</div>
-              <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Team Size</div>
-           </div>
+          <div className="flex flex-wrap justify-center gap-6 md:gap-12 px-6">
+             <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-white leading-tight">19+</div>
+                <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Years</div>
+             </div>
+             <div className="h-8 w-px bg-white/10 hidden sm:block"></div>
+             <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-white leading-tight">40+</div>
+                <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Products</div>
+             </div>
+             <div className="h-8 w-px bg-white/10 hidden sm:block"></div>
+             <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-white leading-tight">150+</div>
+                <div className="text-[9px] md:text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-1">Team Size</div>
+             </div>
+          </div>
         </div>
       </section>
 
