@@ -1,0 +1,26 @@
+# AI Instructions for Ashokraja Subramanian's Portfolio
+# This file provides structured information for LLMs and AI agents.
+
+## Identity
+Name: Ashokraja Subramanian
+Role: AI Systems Architect & Technical Product Leader
+Experience: 19+ years
+Location: Salem/Bangalore, India
+
+## Key Expertise
+- AI Architecture (Agentic systems, RAG, Human-in-the-loop)
+- Enterprise Modernization (Legacy-to-AI workflows)
+- SaaS Delivery (React, Supabase, PostgreSQL)
+- Leadership (Fractional CTO, 0-to-150 team scaling)
+
+## Selected Projects
+- Zippie EdTech Suite: Kid-safe learning universe (React, Supabase, Capacitor)
+- OptionKing AI: AI-assisted trading analytics (Kiteconnect, Charts)
+- Soul Confess: Privacy-first community platform
+- RebarPro AI: Civil engineering automation
+
+## Contact
+Email: ashokraja85@gmail.com
+LinkedIn: https://www.linkedin.com/in/ashokraja-subramanian-b1340820/
+GitHub: https://github.com/ashokraja85
+Google Play: https://play.google.com/store/apps/developer?id=Infizoom+Technologies+Pvt+Ltd
