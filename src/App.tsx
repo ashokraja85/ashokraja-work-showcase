@@ -122,12 +122,12 @@ const timelineData = [
   },
   {
     id: 2,
-    title: "Enterprise SaaS",
+    title: "Enterprise Delivery",
     date: "Scale",
-    content: "Scaling platforms to 150+ contributors and modernizing legacy L2/L3 systems.",
+    content: "L2/L3 modernization, ITIL governance, SLA optimization, and incident management.",
     category: "Leadership",
     icon: Briefcase,
-    relatedIds: [1, 5],
+    relatedIds: [1, 5, 6],
     status: "completed" as const,
     energy: 100,
   },
@@ -163,6 +163,17 @@ const timelineData = [
     relatedIds: [2],
     status: "completed" as const,
     energy: 85,
+  },
+  {
+    id: 6,
+    title: "Agile Leadership",
+    date: "Management",
+    content: "Distributed delivery, stakeholder management, estimation, and Agile leadership.",
+    category: "Leadership",
+    icon: Zap,
+    relatedIds: [2],
+    status: "completed" as const,
+    energy: 96,
   },
 ];
 

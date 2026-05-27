@@ -58,11 +58,11 @@ export default function ResumeApp() {
               { title: "AI Engineering", content: "OpenAI / Gemini / Claude integration, offline speech AI, NLP pipelines, spaced repetition systems, ELO matchmaking" },
               { title: "Platforms", content: "Supabase, PostgreSQL, Row-Level Security, Edge Functions, Storage, Firebase, Cloudflare Workers, GCP" },
               { title: "Web & Mobile", content: "React, Next.js, Vite, TypeScript, Tailwind CSS, shadcn/ui, Capacitor, React Native, Expo" },
+              { title: "Enterprise Operations", content: "L2/L3 operational modernization, ITIL-aligned governance, SLA optimization, Incident & problem management, Root-cause analysis" },
+              { title: "Delivery Leadership", content: "Enterprise delivery leadership, Distributed delivery management, Cross-functional stakeholder management, Agile delivery, Estimation" },
               { title: "Desktop & Media", content: "Electron, electron-builder, NSIS installers, FFmpeg, ffprobe, local-first media processing" },
               { title: "Data & Visualization", content: "D3, Three.js, React Three Fiber, Recharts, Lightweight Charts, technical indicators" },
               { title: "FinTech & Web3", content: "Kiteconnect / Zerodha APIs, options analytics, Solana SPL tokens, token deployment workflows" },
-              { title: "Leadership", content: "Fractional CTO, startup execution, 0-to-150 team scaling, lean budgeting, distributed delivery" },
-              { title: "Enterprise Modernization", content: "Legacy-to-AI workflows, L2/L3 intelligence, SLA optimization, ITIL governance" },
             ].map((skill, idx) => (
               <div key={idx} className="glass p-6 rounded-2xl border border-white/5 hover:border-indigo-500/30 transition-colors">
                 <h3 className="text-indigo-400 font-bold text-sm mb-2">{skill.title}</h3>
