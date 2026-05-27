@@ -12,7 +12,6 @@ export default function ResumeApp() {
           </a>
           <div className="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-slate-400">
             <a href="/" className="hover:text-white transition-colors">Portfolio</a>
-            <a href="mailto:ashokraja85@gmail.com" className="text-indigo-400">Contact</a>
           </div>
         </div>
       </nav>
