@@ -3,15 +3,15 @@
 
 ## Identity
 Name: Ashokraja Subramanian
-Role: AI Systems Architect & Technical Product Leader
+Role: Enterprise AI Transformation Architect & Strategic Technology Leader
 Experience: 19+ years
 Location: Salem/Bangalore, India
 
 ## Key Expertise
 - AI Architecture (Agentic systems, RAG, Human-in-the-loop)
-- Enterprise Modernization (Legacy-to-AI workflows)
+- Enterprise Modernization (L2/L3 intelligence, ITIL, SLA optimization)
 - SaaS Delivery (React, Supabase, PostgreSQL)
-- Leadership (Fractional CTO, 0-to-150 team scaling)
+- Leadership (Enterprise transformation, distributed engineering, 0-to-150 team scaling)
 
 ## Selected Projects
 - Zippie EdTech Suite: Kid-safe learning universe (React, Supabase, Capacitor)
