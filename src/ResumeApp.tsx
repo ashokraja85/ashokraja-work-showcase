@@ -21,7 +21,7 @@ export default function ResumeApp() {
         {/* Header */}
         <header className="mb-20 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold heading-gradient mb-4">Ashokraja Subramanian</h1>
-          <p className="text-xl md:text-2xl text-indigo-400 font-medium mb-6 tracking-tight">AI Systems Architect & Technical Product Leader</p>
+          <p className="text-xl md:text-2xl text-indigo-400 font-medium mb-6 tracking-tight">Enterprise AI Transformation Architect & Strategic Technology Leader</p>
           <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-slate-400">
             <span className="flex items-center gap-2 bg-white/5 px-3 py-1 rounded-full border border-white/5"><Mail size={14} /> ashokraja85@gmail.com</span>
             <a href="https://linkedin.com/in/ashokraja-subramanian-b1340820/" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-white/5 px-3 py-1 rounded-full border border-white/5 hover:text-white transition-colors"><Linkedin size={14} /> linkedin.com/in/ashokraja-subramanian-b1340820/</a>
@@ -36,14 +36,20 @@ export default function ResumeApp() {
             Executive Summary
             <div className="h-px bg-white/10 flex-grow"></div>
           </h2>
-          <p className="text-lg text-slate-300 leading-relaxed max-w-4xl">
-            Technical Architect with 19+ years transforming enterprise systems into AI-driven platforms. 
-            Hands-on builder and people leader who scaled an AI DataOps practice from 0 to 150+ contributors 
-            at 95% client retention, while personally shipping 40+ applications across EdTech, FinTech, 
-            HR automation, Civic-Tech, Web3, Creative AI, and desktop tooling. Strong record across 
-            legacy modernization, AI workflow automation, Supabase-backed SaaS platforms, mobile apps, 
-            Electron desktop apps, and enterprise production support.
-          </p>
+          <div className="space-y-4 text-lg text-slate-300 leading-relaxed max-w-4xl">
+            <p>
+              Enterprise AI Transformation Architect & Strategic Technology Leader with 19+ years of experience transforming enterprise systems into AI-driven platforms and intelligent operational ecosystems.
+            </p>
+            <p>
+              Technology leader with deep hands-on engineering expertise who scaled an AI DataOps practice from 0 to 150+ contributors while sustaining 95% client retention across long-term engagements.
+            </p>
+            <p>
+              Led the architecture and delivery of multiple AI-enabled enterprise and SaaS platforms across EdTech, FinTech, HR automation, Civic-Tech, analytics, workflow automation, and intelligent operations ecosystems.
+            </p>
+            <p>
+              Strong expertise across enterprise modernization, AI workflow automation, Supabase-backed SaaS platforms, cloud-native architectures, mobile applications, Electron desktop platforms, and enterprise production support.
+            </p>
+          </div>
         </section>
 
         {/* Core Competencies */}
@@ -54,14 +60,14 @@ export default function ResumeApp() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
+              { title: "Enterprise Operations", content: "Enterprise delivery leadership, L2/L3 operational modernization, ITIL-aligned governance, SLA optimization, Incident & problem management, Root-cause analysis" },
               { title: "AI Architecture", content: "Agentic systems, decision engines, human-in-the-loop workflows, confidence scoring, RAG patterns, evaluation harnesses" },
               { title: "AI Engineering", content: "OpenAI / Gemini / Claude integration, offline speech AI, NLP pipelines, spaced repetition systems, ELO matchmaking" },
               { title: "Platforms", content: "Supabase, PostgreSQL, Row-Level Security, Edge Functions, Storage, Firebase, Cloudflare Workers, GCP" },
               { title: "Web & Mobile", content: "React, Next.js, Vite, TypeScript, Tailwind CSS, shadcn/ui, Capacitor, React Native, Expo" },
-              { title: "Enterprise Operations", content: "L2/L3 operational modernization, ITIL-aligned governance, SLA optimization, Incident & problem management, Root-cause analysis" },
-              { title: "Delivery Leadership", content: "Enterprise delivery leadership, Distributed delivery management, Cross-functional stakeholder management, Agile delivery, Estimation" },
               { title: "Desktop & Media", content: "Electron, electron-builder, NSIS installers, FFmpeg, ffprobe, local-first media processing" },
               { title: "Data & Visualization", content: "D3, Three.js, React Three Fiber, Recharts, Lightweight Charts, technical indicators" },
+              { title: "Leadership", content: "Enterprise transformation leadership, strategic architecture, distributed engineering management, large-scale delivery execution, AI modernization strategy, 0-to-150 team scaling, lean budgeting, distributed delivery" },
               { title: "FinTech & Web3", content: "Kiteconnect / Zerodha APIs, options analytics, Solana SPL tokens, token deployment workflows" },
             ].map((skill, idx) => (
               <div key={idx} className="glass p-6 rounded-2xl border border-white/5 hover:border-indigo-500/30 transition-colors">
@@ -89,8 +95,7 @@ export default function ResumeApp() {
                   "Scaled an AI DataOps practice from 0 to 150+ contributors while sustaining 95% client retention; operated as fractional CTO across 10+ global engagements.",
                   "Architected production AI platforms using Supabase, Edge Functions, PostgreSQL, and modern React stacks for model-assisted annotation, human-in-the-loop workflows, confidence scoring, and workflow automation.",
                   "Re-architected manual L2/L3 operational processes into AI-assisted, decision-driven systems to reduce analyst touch effort and improve SLA adherence.",
-                  "Built India s first all-women rural AI workforce model, training first-generation graduates and converting them into a paid AI data operations workforce.",
-                  "Built the Infizoom corporate platform using Next.js, React, React Three Fiber, D3, GSAP, and Framer Motion to present the company s AI DataOps capability through an immersive web experience."
+                  "Built India s first all-women rural AI workforce model, training first-generation graduates and converting them into a paid AI data operations workforce."
                 ]
               },
               {
@@ -140,20 +145,20 @@ export default function ResumeApp() {
           </div>
         </section>
 
-        {/* Portfolio Highlights */}
+        {/* Strategic AI & Enterprise Engineering Initiatives */}
         <section className="mb-20">
           <h2 className="text-2xl font-bold text-white uppercase tracking-widest text-[12px] mb-8 flex items-center gap-4">
-            Selected Portfolio
+            Strategic AI & Enterprise Engineering Initiatives
             <div className="h-px bg-white/10 flex-grow"></div>
           </h2>
-          <p className="text-sm text-slate-500 mb-8 font-medium">40+ applications shipped between Oct 2025 and May 2026, using AI-augmented engineering workflows across Cursor, Lovable, Claude Code, TypeScript, Supabase, Capacitor, Electron, Python, and modern React ecosystems.</p>
+          <p className="text-sm text-slate-500 mb-8 font-medium">Delivered multiple AI-enabled enterprise and SaaS platforms across FinTech, EdTech, HR automation, analytics, workflow modernization, and intelligent operations ecosystems between Oct 2025 and May 2026 using AI-augmented engineering workflows and modern cloud-native architectures.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               { title: "Zippie EdTech Suite", content: "Architected 5+ kid-safe learning apps (Zippie English, SSC, Science, School, Coding, Play, Aim, Video Magic). Built with Vite, React, TypeScript, Supabase, Capacitor. Features Leitner-based SRS, ELO matchmaking, and curriculum audit automation." },
-              { title: "Zippie Video Editor", content: "Offline Windows desktop video editor using Electron, React, FFmpeg, and electron-builder. Supports local-first clip merging and MP4 export." },
-              { title: "Neon Drift", content: "A reflex puzzle game with a physics engine where players slingshot a glowing orb through 200+ neon levels, dodging trails and chaining combos." },
               { title: "AI Trading & Options Suite", content: "Built FinTech apps (Bullfussion, option_analyser, optionking, greeks). Integrated Zerodha APIs, Lightweight Charts, and Supabase for AI-assisted chart analysis and Greeks-based strategy modeling." },
+              { title: "Zippie Video Editor", content: "Offline Windows desktop video editor using Electron, React, FFmpeg, and electron-builder. Supports local-first clip merging and MP4 export." },
               { title: "HR Auto-Generator", content: "Bulk relieving-letter generation with intelligent mapping and Gemini AI assist. Built with Next.js, TypeScript, Supabase, and Puppeteer." },
+              { title: "Neon Drift", content: "A reflex puzzle game with a physics engine where players slingshot a glowing orb through 200+ neon levels, dodging trails and chaining combos." },
               { title: "GREEK Solana SPL Token", content: "Designed and deployed a community utility token workflow for OptionKingAI traders: 1B fixed supply, mint/freeze authority permanently revoked." },
               { title: "Civic & Industrial AI Apps", content: "Built apps across civic accountability, legal assistance, astrology, room redesign, image generation, and civil reinforcement-bar planning. Examples: citizen-s-watch, law_app, aiastroguru, nakshtralove, soulconfess, roomifyai, pixie, auditorpro." },
               { title: "Jarvis Offline Voice Assistant", content: "Python desktop assistant with offline ASR (vosk), wake-word (pvporcupine), TTS (pyttsx3), and spaCy NLP intent classification for Windows automation." },
